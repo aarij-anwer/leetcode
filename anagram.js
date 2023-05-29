@@ -20,7 +20,13 @@ const isAnagram = (s, t) =>  {
   return answer;
 };
 
-let s = "anagram";
-let t = "nagaram";
+let s;
+let t;
 
+s = "anagram";
+t = "nagaram";
+console.log(s, t, isAnagram(s,t));
+
+s = "rat"; 
+t = "car";
 console.log(s, t, isAnagram(s,t));

@@ -5,7 +5,24 @@
  */
 
 const twoSum = (nums, target) => {
+  const answer = [];
+  const map = new Map();
+  
+  for (let i = 0; i < nums.length; i++) {
+    const secondElement = target - nums[i];
 
+    if (map.has(secondElement)) {
+      //we found our pair
+      answer.push(map.get(secondElement));
+      answer.push(i);
+      return answer;
+    } else {
+      map.set(nums[i], i);
+    }
+  }
+
+  return answer;
+  
 };
 
 let nums; let target;

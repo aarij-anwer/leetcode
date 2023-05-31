@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 
-// Solution write up (https://leetcode.com/problems/top-k-frequent-elements/solutions/3583449/top-k-frequent-elements/)[here]
+// Solution write up https://leetcode.com/problems/top-k-frequent-elements/solutions/3583449/top-k-frequent-elements/
 
 const topKFrequent = (nums, k) => {
   const numMap = new Map();

@@ -20,7 +20,11 @@ s = "A man, a plan, a canal: Panama";
 console.log(s);
 console.log("isPalindrome:", isPalindrome(s));
 
-s = "A man, a plan, a canal: Panama";
+s = "race a car";
+console.log(s);
+console.log("isPalindrome:", isPalindrome(s));
+
+s = " ";
 console.log(s);
 console.log("isPalindrome:", isPalindrome(s));
 
